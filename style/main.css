@@ -1,0 +1,85 @@
+body * {
+    padding: 0px;
+    margin: 0px;
+}
+.building-card-container {
+    width: 800px;
+    margin: auto;
+    border: solid #eff5ff 1px;
+}
+.far {
+    color:#718099;
+}
+.building-card-title {
+    display: flex;
+    align-items: center;
+}
+.building-name {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 28px
+}
+.address {
+    margin: 15px 0 30px 0;
+    font-size: 20px;
+}
+.photo-map {
+    padding: 20px;
+    border: solid #eff5ff 1px;
+}
+.photo-map, .props-table {
+    background-color: #eff5ff;
+}
+#map {
+    margin-left: 25px;
+    display: inline-block;
+    height: 350px;
+    width: 350px;
+}
+.h-props {
+    margin: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#718099;
+    text-align: center;
+}
+.props-table {
+    width: 100%;
+}
+.prop-name {
+    font-weight: bold;
+    color: #718099;
+    font-size: 18px;
+}
+th {
+    width: 25%;
+    text-align: left;
+}
+.description {
+    font-size: 18px;
+    margin: 40px 0 40px 0 
+}
+.availabilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.table-name {
+    text-transform: uppercase;
+    color: #718099;
+    font-weight: bold;
+    font-size: 20px;
+}
+.availabilities-table {
+    margin-top: 15px; 
+    width: 100%;
+    border-collapse: collapse;
+}
+.availabilities-table tr {
+    height: 35px;
+    border-top: solid #eff5ff 1px;
+    border-bottom: solid #eff5ff 1px;
+}
+.titles * {
+    background-color: #eff5ff;
+}
